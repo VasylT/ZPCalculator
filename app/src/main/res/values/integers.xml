@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="animation_duration_short">300</integer>
+    <integer name="animation_duration_long">600</integer>
+
+    <integer name="year_start">2000</integer>
+    <integer name="year_end">2050</integer>
+
+</resources>

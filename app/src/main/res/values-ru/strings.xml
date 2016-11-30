@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">ЗП Калькулятор</string>
+
+    <string name="add_entry">Добавить новый месячный отчёт</string>
+    <string name="placeholder_no_data">Нет записей</string>
+
+    <string name="month_start">Первая половина месяца</string>
+    <string name="month_end">Вторая половина месяца</string>
+    <string name="money_on_card">Деньги на карте</string>
+    <string name="cash">Наличные</string>
+    <string name="salary">Объём зарплаты</string>
+
+    <string name="total">Всего</string>
+    <string name="exchange_rate">Курс валют</string>
+    <string name="exchange_rates_buy">Курс покупки валюты</string>
+    <string name="exchange_rates_sale">Курс продажи валюты</string>
+    <string name="exchange_rate_range">%1$.3f -> %2$.3f</string>
+
+    <string name="date_picker_title">Выберите месяц и год записи</string>
+    <string name="date_picker_no">Отмена</string>
+    <string name="date_picker_yes">Выбрать</string>
+
+    <string name="delete_item_title">Действительно хотите удалить запись %1$s</string>
+    <string name="delete_item_no">Оставить</string>
+    <string name="delete_item_yes">Удалить</string>
+
+    <string name="error_field_required">Это поле обязательно к заполнению</string>
+
+    <string name="item_saved">Запись сохранена</string>
+    <string name="item_modified">Запись изменена</string>
+    <string name="item_deleted">Запись удалена</string>
+    <string name="item_exists">С такой датой уже есть запись</string>
+
+    <string-array name="months">
+        <item name="january">Январь</item>
+        <item name="february">Февраль</item>
+        <item name="march">Март</item>
+        <item name="april">Апрель</item>
+        <item name="may">Май</item>
+        <item name="june">Июнь</item>
+        <item name="july">Июль</item>
+        <item name="august">Август</item>
+        <item name="september">Сентябрь</item>
+        <item name="october">Октябрь</item>
+        <item name="november">Ноябрь</item>
+        <item name="december">Декабрь</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme.ToolBar"
+    tools:ignore="RtlHardcoded, ContentDescription">
+
+    <FrameLayout
+        android:id="@+id/btn_back"
+        style="@style/AppTheme.ToolbarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView style="@style/ToolbarButtonIcon" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/toolbar_title_margin_left"
+        android:layout_toRightOf="@+id/btn_back"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:focusable="false"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            tools:targetApi="lollipop"
+            tools:text="November 11" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/btn_done"
+        android:layout_alignParentRight="true"
+        style="@style/AppTheme.ToolbarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/btn_done_view"
+            android:background="@drawable/ic_done_white_24dp"
+            style="@style/ToolbarButtonIcon" />
+
+    </FrameLayout>
+
+</RelativeLayout>

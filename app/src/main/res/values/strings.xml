@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Salary Calculator</string>
+
+    <string name="add_entry">Add new month data</string>
+    <string name="placeholder_no_data">No salary data</string>
+
+    <string name="month_start">First part of the month</string>
+    <string name="month_end">End of the month</string>
+    <string name="money_on_card">Money on the card</string>
+    <string name="cash">Cash</string>
+    <string name="salary">Salary</string>
+
+    <string name="total">Total</string>
+    <string name="exchange_rate">Exchange rate</string>
+    <string name="exchange_rates_buy">Exchange rates buy</string>
+    <string name="exchange_rates_sale">Exchange rates sale</string>
+    <string name="exchange_rate_range">%1$.2f -> %2$.2f</string>
+
+    <string name="date_picker_title">Select date for salary item</string>
+    <string name="date_picker_no">Cancel</string>
+    <string name="date_picker_yes">Pick</string>
+
+    <string name="delete_item_title">Do you really want to delete data of %1$s</string>
+    <string name="delete_item_no">Keep</string>
+    <string name="delete_item_yes">Delete</string>
+
+    <string name="error_field_required">This field is required</string>
+
+    <string name="item_saved">Item saved</string>
+    <string name="item_modified">Item modified</string>
+    <string name="item_deleted">Item deleted</string>
+    <string name="item_exists">Item already exists</string>
+
+    <string-array name="months">
+        <item name="january">January</item>
+        <item name="february">February</item>
+        <item name="march">March</item>
+        <item name="april">April</item>
+        <item name="may">May</item>
+        <item name="june">June</item>
+        <item name="july">July</item>
+        <item name="august">August</item>
+        <item name="september">September</item>
+        <item name="october">October</item>
+        <item name="november">November</item>
+        <item name="december">December</item>
+    </string-array>
+
+</resources>

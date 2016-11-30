@@ -1,0 +1,20 @@
+.gradle
+/local.properties
+.idea
+/.idea
+*.iml
+*.apk
+.DS_Store
+/build
+/captures
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+obj/
+
+# Log Files
+*.log

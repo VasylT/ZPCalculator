@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/picker_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent"
+        android:theme="@style/AlertDialog.AppCompat">
+
+        <NumberPicker
+            android:id="@+id/month_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/date_picker_picker_margin_horizontal"
+            android:layout_marginRight="@dimen/date_picker_picker_margin_horizontal"
+            android:layout_marginTop="@dimen/date_picker_picker_margin_top"
+            android:layout_marginBottom="@dimen/date_picker_picker_margin_bottom"/>
+
+        <NumberPicker
+            android:id="@+id/year_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/date_picker_picker_margin_horizontal"
+            android:layout_marginRight="@dimen/date_picker_picker_margin_horizontal"
+            android:layout_marginTop="@dimen/date_picker_picker_margin_top"
+            android:layout_marginBottom="@dimen/date_picker_picker_margin_bottom"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/entry_exists_marker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/date_picker_existence_marker_margin_right"
+        android:background="@drawable/ic_note_white_24px"
+        android:layout_toLeftOf="@+id/picker_layout"
+        tools:ignore="ContentDescription, RtlHardcoded"
+        android:visibility="gone"
+        tools:visibility="visible"/>
+
+</RelativeLayout>
